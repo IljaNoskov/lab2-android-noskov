@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_item"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <TextView
+        android:id="@+id/product"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:fontFamily="sans-serif"
+        android:text="Delete"
+        android:textSize="13sp" />
+
+</FrameLayout>
